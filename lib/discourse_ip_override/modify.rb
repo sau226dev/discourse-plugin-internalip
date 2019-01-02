@@ -1,3 +1,3 @@
-if enabled_site_setting == true
+if ip_override_plugin_enabled == true
  Rack::Request.ip_filter = lambda { |ip| false }
 end
