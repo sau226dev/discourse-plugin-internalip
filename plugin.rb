@@ -6,6 +6,6 @@ enabled_site_setting :ip_override_plugin_enabled
 
 after_initialize do
   require_dependency 'discourse'  
-  require_dependency 'rack'
+  require 'rack'
   load File.expand_path('../lib/discourse_ip_override/modify.rb', __FILE__)
 end
