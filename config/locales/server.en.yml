@@ -1,0 +1,3 @@
+en:
+  site_settings:
+    ip_override_plugin_enabled: 'Enable Internal IP override plugin'
